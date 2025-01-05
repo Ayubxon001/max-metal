@@ -1,25 +1,25 @@
 import React from "react";
-import pirilla1 from "../images/pirilla/pirilla1.jpg";
-import pirilla2 from "../images/pirilla/pirilla2.jpg";
-import pirilla3 from "../images/pirilla/pirilla3.jpg";
-import pirilla4 from "../images/pirilla/pirilla4.jpg";
-import pirilla5 from "../images/pirilla/pirilla5.jpg";
-import pirilla6 from "../images/pirilla/pirilla6.jpg";
-import pirilla7 from "../images/pirilla/pirilla7.jpg";
-import pirilla8 from "../images/pirilla/pirilla8.jpg";
-import pirilla9 from "../images/pirilla/pirilla9.jpg";
-import pirilla10 from "../images/pirilla/pirilla10.jpg";
-import pirilla11 from "../images/pirilla/pirilla11.jpg";
-import pirilla12 from "../images/pirilla/pirilla12.jpg";
-import pirilla13 from "../images/pirilla/pirilla13.jpg";
-import pirilla14 from "../images/pirilla/pirilla14.jpg";
-import pirilla15 from "../images/pirilla/pirilla15.jpg";
-import pirilla16 from "../images/pirilla/pirilla16.jpg";
-import pirilla17 from "../images/pirilla/pirilla17.jpg";
-import pirilla18 from "../images/pirilla/pirilla18.jpg";
-import pirilla19 from "../images/pirilla/pirilla19.jpg";
-import pirilla20 from "../images/pirilla/pirilla20.jpg";
-import pirilla21 from "../images/pirilla/pirilla21.jpg";
+import pirilla1 from "../../images/pirilla/pirilla1.jpg";
+import pirilla2 from "../../images/pirilla/pirilla2.jpg";
+import pirilla3 from "../../images/pirilla/pirilla3.jpg";
+import pirilla4 from "../../images/pirilla/pirilla4.jpg";
+import pirilla5 from "../../images/pirilla/pirilla5.jpg";
+import pirilla6 from "../../images/pirilla/pirilla6.jpg";
+import pirilla7 from "../../images/pirilla/pirilla7.jpg";
+import pirilla8 from "../../images/pirilla/pirilla8.jpg";
+import pirilla9 from "../../images/pirilla/pirilla9.jpg";
+import pirilla10 from "../../images/pirilla/pirilla10.jpg";
+import pirilla11 from "../../images/pirilla/pirilla11.jpg";
+import pirilla12 from "../../images/pirilla/pirilla12.jpg";
+import pirilla13 from "../../images/pirilla/pirilla13.jpg";
+import pirilla14 from "../../images/pirilla/pirilla14.jpg";
+import pirilla15 from "../../images/pirilla/pirilla15.jpg";
+import pirilla16 from "../../images/pirilla/pirilla16.jpg";
+import pirilla17 from "../../images/pirilla/pirilla17.jpg";
+import pirilla18 from "../../images/pirilla/pirilla18.jpg";
+import pirilla19 from "../../images/pirilla/pirilla19.jpg";
+import pirilla20 from "../../images/pirilla/pirilla20.jpg";
+import pirilla21 from "../../images/pirilla/pirilla21.jpg";
 import { Button } from "flowbite-react";
 import { Link } from "react-router-dom";
 
@@ -49,7 +49,7 @@ const PirillaAll = () => {
   ];
 
   return (
-    <div className="bg-gray-100 py-10 px-10">
+    <div className=" py-10 px-10">
       <Button gradientDuoTone="greenToBlue">
         <Link to={"/"}>Orqaga</Link>
       </Button>
@@ -75,6 +75,11 @@ const PirillaAll = () => {
                 {image.title}
               </h3>
               <p className="text-teal-600 font-bold">{image.price}</p>
+            </div>
+            <div className="p-4 text-center">
+              <Button gradientDuoTone="purpleToBlue">
+                <a href="https://t.me/Isa_Yuu">Sotvolish</a>
+              </Button>
             </div>
           </div>
         ))}
