@@ -1,31 +1,29 @@
 import React from "react";
-import pirilla1 from "../../images/pirilla/pirilla1.jpg";
-import pirilla2 from "../../images/pirilla/pirilla2.jpg";
-import pirilla3 from "../../images/pirilla/pirilla3.jpg";
-import pirilla4 from "../../images/pirilla/pirilla4.jpg";
+import Rishotka1 from "../../images/Rishotka/Rishotka1.jpg";
+import Rishotka2 from "../../images/Rishotka/Rishotka2.jpg";
+import Rishotka3 from "../../images/Rishotka/Rishotka3.jpg";
+import Rishotka4 from "../../images/Rishotka/Rishotka4.jpg";
 import { Link } from "react-router-dom";
 import { Button } from "flowbite-react";
-
-const Pirilla = () => {
+const Rishotka = () => {
   const images = [
-    { src: pirilla1, title: "Pirilla", price: "Narxi kelishilgan holda" },
-    { src: pirilla2, title: "Pirilla", price: "Narxi kelishilgan holda" },
-    { src: pirilla3, title: "Pirilla", price: "Narxi kelishilgan holda" },
-    { src: pirilla4, title: "Pirilla", price: "Narxi kelishilgan holda" },
+    { src: Rishotka1, title: "Rishotka", price: "Narxi kelishilgan holda" },
+    { src: Rishotka2, title: "Rishotka", price: "Narxi kelishilgan holda" },
+    { src: Rishotka3, title: "Rishotka", price: "Narxi kelishilgan holda" },
+    { src: Rishotka4, title: "Rishotka", price: "Narxi kelishilgan holda" },
   ];
-
   return (
-    <div className="py-14 px-10">
+    <div className="py-12 px-10">
+  
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-4xl font-bold text-gray-800">Pirilla Gallery</h1>
+        <h1 className="text-4xl font-bold text-gray-800">Rishotka Gallery</h1>
         <Link
-          to="/pirilla/all"
+          to={"/rishotka/all"}
           className="text-teal-600 hover:underline text-lg font-medium"
         >
-          Xammasini ko'rish
+          Xammasini korish
         </Link>
       </div>
-
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {images.map((image, index) => (
           <div
@@ -35,7 +33,7 @@ const Pirilla = () => {
             <img
               src={image.src}
               alt={image.title}
-              className="w-full h-56 object-cover"
+              className="w-full h-56 p-5 object-cover"
             />
 
             <div className="p-4">
@@ -64,4 +62,4 @@ const Pirilla = () => {
   );
 };
 
-export default Pirilla;
+export default Rishotka;

@@ -14,17 +14,61 @@ import { Button } from "flowbite-react";
 import { Link } from "react-router-dom";
 const MiniOffice = () => {
   const images = [
-    { src: miniOffice1, title: "Mini Office", price: "100,000 som" },
-    { src: miniOffice2, title: "Mini Office", price: "100,000 som" },
-    { src: miniOffice3, title: "Mini Office", price: "100,000 som" },
-    { src: miniOffice4, title: "Mini Office", price: "100,000 som" },
-    { src: miniOffice5, title: "Mini Office", price: "100,000 som" },
-    { src: miniOffice6, title: "Mini Office", price: "100,000 som" },
-    { src: miniOffice7, title: "Mini Office", price: "100,000 som" },
-    { src: miniOffice8, title: "Mini Office", price: "100,000 som" },
-    { src: miniOffice9, title: "Mini Office", price: "100,000 som" },
-    { src: miniOffice10, title: "Mini Office", price: "100,000 som" },
-    { src: miniOffice11, title: "Mini Office", price: "100,000 som" },
+    {
+      src: miniOffice1,
+      title: "Mini Office",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: miniOffice2,
+      title: "Mini Office",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: miniOffice3,
+      title: "Mini Office",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: miniOffice4,
+      title: "Mini Office",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: miniOffice5,
+      title: "Mini Office",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: miniOffice6,
+      title: "Mini Office",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: miniOffice7,
+      title: "Mini Office",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: miniOffice8,
+      title: "Mini Office",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: miniOffice9,
+      title: "Mini Office",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: miniOffice10,
+      title: "Mini Office",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: miniOffice11,
+      title: "Mini Office",
+      price: "Narxi kelishilgan holda",
+    },
   ];
   return (
     <div className="py-14 px-10">
@@ -34,7 +78,9 @@ const MiniOffice = () => {
         </Button>
       </div>
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-4xl font-bold text-gray-800">Mini Office Xammasini</h1>
+        <h1 className="text-4xl font-bold text-gray-800">
+          Mini Office Xammasini
+        </h1>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {images.map((image, index) => (
@@ -65,7 +111,7 @@ const MiniOffice = () => {
                   rel="noopener noreferrer"
                   className="text-white"
                 >
-                  Sotvolish
+                  Sotib olish
                 </a>
               </Button>
             </div>

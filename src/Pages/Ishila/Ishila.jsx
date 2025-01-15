@@ -8,16 +8,16 @@ import { Button } from "flowbite-react";
 
 const Ishila = () => {
   const images = [
-    { src: ishi1, title: "Ishi ", price: "100,000", id: 1 },
-    { src: ishi2, title: "Ishi ", price: "100,000", id: 2 },
-    { src: ishi3, title: "Ishi ", price: "100,000", id: 3 },
-    { src: ishi4, title: "Ishi ", price: "100,000", id: 4 },
+    { src: ishi1, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 1 },
+    { src: ishi2, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 2 },
+    { src: ishi3, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 3 },
+    { src: ishi4, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 4 },
   ];
 
   return (
     <div className="py-10 px-10">
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-4xl font-bold text-gray-800">Ishila Gallery</h1>
+        <h1 className="text-4xl font-bold text-gray-800">Eshiklar Gallery</h1>
         <Link
           to={"/ishila/all"}
           className="text-teal-600 hover:underline text-lg font-medium"
@@ -42,18 +42,18 @@ const Ishila = () => {
               <h3 className="text-lg font-semibold text-gray-700">
                 {image.title}
               </h3>
-              <p className="text-teal-600 font-bold">{image.price} som</p>
+              <p className="text-teal-600 font-bold">{image.price}</p>
             </div>
 
             <div className="p-4 text-center">
               <Button gradientDuoTone="purpleToBlue">
                 <a
-                  href="https://t.me/Isa_Yuu"
+                  href="https://t.me/tower2112"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white"
                 >
-                  Sotvolish
+                  Sotib olish
                 </a>
               </Button>
             </div>

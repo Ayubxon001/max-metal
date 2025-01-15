@@ -7,6 +7,7 @@ import QiganIshla from "../Pages/QiganIshla/QiganIshla";
 import Bisetka from "../Pages/Bisetka/Bisetka";
 import Skameyka from "../Pages/Skameyka/Skameyka";
 import Category from "../Pages/Category/Category";
+import Rishotka from "../Pages/Rishotka/Rishotka";
 
 const Home = () => {
   return (
@@ -15,9 +16,10 @@ const Home = () => {
       <Pirilla />
       <Ustun />
       <Ishila />
-      <QiganIshla />
+      {/* <QiganIshla /> */}
       <Bisetka />
       <Category />
+      <Rishotka />
       <Skameyka />
     </div>
   );

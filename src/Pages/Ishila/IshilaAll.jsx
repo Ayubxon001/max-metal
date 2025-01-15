@@ -19,21 +19,21 @@ import { Button } from "flowbite-react";
 
 const IshilaAll = () => {
   const images = [
-    { src: ishi1, title: "Ishi ", price: "100,000", id: 1 },
-    { src: ishi2, title: "Ishi ", price: "100,000", id: 2 },
-    { src: ishi3, title: "Ishi ", price: "100,000", id: 3 },
-    { src: ishi4, title: "Ishi ", price: "100,000", id: 4 },
-    { src: ishi5, title: "Ishi ", price: "100,000", id: 4 },
-    { src: ishi6, title: "Ishi ", price: "100,000", id: 4 },
-    { src: ishi7, title: "Ishi ", price: "100,000", id: 4 },
-    { src: ishi8, title: "Ishi ", price: "100,000", id: 4 },
-    { src: ishi9, title: "Ishi ", price: "100,000", id: 4 },
-    { src: ishi10, title: "Ishi", price: "100,000", id: 4 },
-    { src: ishi11, title: "Ishi ", price: "100,000", id: 4 },
-    { src: ishi12, title: "Ishi ", price: "100,000", id: 4 },
-    { src: ishi13, title: "Ishi ", price: "100,000", id: 4 },
-    { src: ishi14, title: "Ishi ", price: "100,000", id: 4 },
-    { src: ishi15, title: "Ishi ", price: "100,000", id: 4 },
+    { src: ishi1, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 1 },
+    { src: ishi2, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 2 },
+    { src: ishi3, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 3 },
+    { src: ishi4, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 4 },
+    { src: ishi5, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 5 },
+    { src: ishi6, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 6 },
+    { src: ishi7, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 7 },
+    { src: ishi8, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 8 },
+    { src: ishi9, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 9 },
+    { src: ishi10, title: "Eshiklar", price: "Narxi kelishilgan holda", id: 10 },
+    { src: ishi11, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 11 },
+    { src: ishi12, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 12 },
+    { src: ishi13, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 13 },
+    { src: ishi14, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 14},
+    { src: ishi15, title: "Eshiklar ", price: "Narxi kelishilgan holda", id: 15 },
   ];
 
   return (
@@ -45,7 +45,7 @@ const IshilaAll = () => {
       </div>
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-3xl py-10 pb-0 font-bold text-gray-800">
-          Ishila Xammasi
+        Eshiklar Xammasi
         </h2>
       </div>
 
@@ -73,12 +73,12 @@ const IshilaAll = () => {
             <div className="p-4 text-center">
               <Button gradientDuoTone="purpleToBlue">
                 <a
-                  href="https://t.me/Isa_Yuu"
+                  href="https://t.me/tower2112"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white"
                 >
-                  Sotvolish
+                  Sotib olish
                 </a>
               </Button>
             </div>

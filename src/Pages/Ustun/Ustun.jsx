@@ -3,7 +3,7 @@ import { FaRocket, FaShieldAlt, FaUserFriends } from "react-icons/fa";
 
 const Ustun = () => {
   return (
-    <div className="py-14 px-10 bg-gray-50">
+    <div className="py-14 px-10 bg-gray-50" id="haqimizda">
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-4xl font-bold text-gray-800">
           Bizning ustunlarimiz

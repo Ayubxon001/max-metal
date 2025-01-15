@@ -12,32 +12,80 @@ import FastFoodKioska10 from "../../images/FastFoodKioska/FastFoodKioska10.jpeg"
 import FastFoodKioska11 from "../../images/FastFoodKioska/FastFoodKioska11.jpeg";
 import { Button } from "flowbite-react";
 import { Link } from "react-router-dom";
+
 const FastFoodKioska = () => {
   const images = [
-    { src: FastFoodKioska1, title: "Fast Food Kiosk", price: "100,000 som" },
-    { src: FastFoodKioska2, title: "Fast Food Kiosk", price: "100,000 som" },
-    { src: FastFoodKioska3, title: "Fast Food Kiosk", price: "100,000 som" },
-    { src: FastFoodKioska4, title: "Fast Food Kiosk", price: "100,000 som" },
-    { src: FastFoodKioska5, title: "Fast Food Kiosk", price: "100,000 som" },
-    { src: FastFoodKioska6, title: "Fast Food Kiosk", price: "100,000 som" },
-    { src: FastFoodKioska7, title: "Fast Food Kiosk", price: "100,000 som" },
-    { src: FastFoodKioska8, title: "Fast Food Kiosk", price: "100,000 som" },
-    { src: FastFoodKioska9, title: "Fast Food Kiosk", price: "100,000 som" },
-    { src: FastFoodKioska10, title: "Fast Food Kiosk", price: "100,000 som" },
-    { src: FastFoodKioska11, title: "Fast Food Kiosk", price: "100,000 som" },
+    {
+      src: FastFoodKioska1,
+      title: "Fast Food Kiosk",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: FastFoodKioska2,
+      title: "Fast Food Kiosk",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: FastFoodKioska3,
+      title: "Fast Food Kiosk",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: FastFoodKioska4,
+      title: "Fast Food Kiosk",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: FastFoodKioska5,
+      title: "Fast Food Kiosk",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: FastFoodKioska6,
+      title: "Fast Food Kiosk",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: FastFoodKioska7,
+      title: "Fast Food Kiosk",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: FastFoodKioska8,
+      title: "Fast Food Kiosk",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: FastFoodKioska9,
+      title: "Fast Food Kiosk",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: FastFoodKioska10,
+      title: "Fast Food Kiosk",
+      price: "Narxi kelishilgan holda",
+    },
+    {
+      src: FastFoodKioska11,
+      title: "Fast Food Kiosk",
+      price: "Narxi kelishilgan holda",
+    },
   ];
+
   return (
     <div className="py-14 px-10">
       <div className="pb-10">
         <Button>
-          <Link to={"/"}>Orqaga</Link>
+          <Link to="/">Orqaga</Link>
         </Button>
       </div>
+
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-4xl font-bold text-gray-800">
-        Fast Food Kiosk Xammasini
+          Fast Food Kiosk Xammasini
         </h1>
       </div>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {images.map((image, index) => (
           <div
@@ -50,24 +98,22 @@ const FastFoodKioska = () => {
               className="w-full h-56 object-cover"
             />
 
-            <div className="p-4 ">
+            <div className="p-4">
               <h3 className="text-lg font-semibold text-gray-700">
                 {image.title}
               </h3>
-              <p className="text-teal-600 mb-0 mt-4  font-bold">
-                {image.price}
-              </p>
+              <p className="text-teal-600 mt-4 font-bold">{image.price}</p>
             </div>
 
             <div className="p-4 text-center">
               <Button gradientDuoTone="purpleToBlue">
                 <a
-                  href="https://t.me/Isa_Yuu"
+                  href="https://t.me/tower2112"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white"
                 >
-                  Sotvolish
+                  Sotib olish
                 </a>
               </Button>
             </div>

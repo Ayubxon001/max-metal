@@ -25,27 +25,27 @@ import { Link } from "react-router-dom";
 
 const PirillaAll = () => {
   const images = [
-    { src: pirilla1, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla2, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla3, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla4, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla5, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla6, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla7, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla8, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla9, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla10, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla11, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla12, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla13, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla14, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla15, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla16, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla17, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla18, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla19, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla20, title: "Pirilla  ", price: "100,000 som" },
-    { src: pirilla21, title: "Pirilla  ", price: "100,000 som" },
+    { src: pirilla1, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla2, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla3, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla4, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla5, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla6, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla7, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla8, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla9, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla10, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla11, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla12, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla13, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla14, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla15, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla16, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla17, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla18, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla19, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla20, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
+    { src: pirilla21, title: "Pirilla  ", price: "Narxi kelishilgan holda" },
   ];
 
   return (
@@ -78,7 +78,7 @@ const PirillaAll = () => {
             </div>
             <div className="p-4 text-center">
               <Button gradientDuoTone="purpleToBlue">
-                <a href="https://t.me/Isa_Yuu">Sotvolish</a>
+                <a href="https://t.me/tower2112">Sotib olish</a>
               </Button>
             </div>
           </div>

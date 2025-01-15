@@ -13,16 +13,16 @@ import { Button } from "flowbite-react";
 import { Link } from "react-router-dom";
 const BisetkaAll = () => {
   const images = [
-    { src: besetka1, title: "Besetka", price: "100,00 so'm" },
-    { src: besetka2, title: "Besetka", price: "100,00 so'm" },
-    { src: besetka3, title: "Besetka", price: "100,00 so'm" },
-    { src: besetka4, title: "Besetka", price: "100,00 so'm" },
-    { src: besetka5, title: "Besetka", price: "100,00 so'm" },
-    { src: besetka6, title: "Besetka", price: "100,00 so'm" },
-    { src: besetka7, title: "Besetka", price: "100,00 so'm" },
-    { src: besetka8, title: "Besetka", price: "100,00 so'm" },
-    { src: besetka9, title: "Besetka", price: "100,00 so'm" },
-    { src: besetka10, title: "Besetka", price: "100,00 so'm" },
+    { src: besetka1, title: "Besetka", price: "Narxi kelishilgan holda" },
+    { src: besetka2, title: "Besetka", price: "Narxi kelishilgan holda" },
+    { src: besetka3, title: "Besetka", price: "Narxi kelishilgan holda" },
+    { src: besetka4, title: "Besetka", price: "Narxi kelishilgan holda" },
+    { src: besetka5, title: "Besetka", price: "Narxi kelishilgan holda" },
+    { src: besetka6, title: "Besetka", price: "Narxi kelishilgan holda" },
+    { src: besetka7, title: "Besetka", price: "Narxi kelishilgan holda" },
+    { src: besetka8, title: "Besetka", price: "Narxi kelishilgan holda" },
+    { src: besetka9, title: "Besetka", price: "Narxi kelishilgan holda" },
+    { src: besetka10, title: "Besetka", price: "Narxi kelishilgan holda" },
   ];
   return (
     <div className="py-14 px-10">
@@ -56,12 +56,12 @@ const BisetkaAll = () => {
             <div className="p-4 text-center">
               <Button gradientDuoTone="purpleToBlue">
                 <a
-                  href="https://t.me/Isa_Yuu"
+                  href="https://t.me/tower2112"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white"
                 >
-                  Sotvolish
+                  Sotib olish
                 </a>
               </Button>
             </div>

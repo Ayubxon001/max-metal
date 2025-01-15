@@ -10,6 +10,7 @@ import Kravat from "./Pages/Kravat/Kravat";
 import Loft from "./Pages/Loft/Loft";
 import MiniOffice from "./Pages/MiniOffice/MiniOffice";
 import FastFoodKioska from "./Pages/FastFoodKioska/FastFoodKioska";
+import RishotkaAll from "./Pages/Rishotka/RishotkaAll";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="loft/all" element={<Loft />} />
         <Route path="mini/office/all" element={<MiniOffice />} />
         <Route path="fast/food/kiosk/all" element={<FastFoodKioska />} />
+        <Route path="rishotka/all" element={<RishotkaAll />} />
       </Routes>
     </div>
   );

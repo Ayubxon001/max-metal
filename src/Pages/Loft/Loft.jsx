@@ -14,16 +14,16 @@ import { Link } from "react-router-dom";
 
 const Loft = () => {
   const images = [
-    { id: 1, src: loft1, title: "Loft", price: "100,000 som" },
-    { id: 2, src: loft2, title: "Loft", price: "100,000 som" },
-    { id: 3, src: loft3, title: "Loft", price: "100,000 som" },
-    { id: 4, src: loft4, title: "Loft", price: "100,000 som" },
-    { id: 5, src: loft5, title: "Loft", price: "100,000 som" },
-    { id: 6, src: loft6, title: "Loft", price: "100,000 som" },
-    { id: 7, src: loft7, title: "Loft", price: "100,000 som" },
-    { id: 8, src: loft8, title: "Loft", price: "100,000 som" },
-    { id: 9, src: loft9, title: "Loft", price: "100,000 som" },
-    { id: 10, src: loft10, title: "Loft", price: "100,000 som" },
+    { id: 1, src: loft1, title: "Loft", price: "Narxi kelishilgan holda " },
+    { id: 2, src: loft2, title: "Loft", price: "Narxi kelishilgan holda " },
+    { id: 3, src: loft3, title: "Loft", price: "Narxi kelishilgan holda " },
+    { id: 4, src: loft4, title: "Loft", price: "Narxi kelishilgan holda " },
+    { id: 5, src: loft5, title: "Loft", price: "Narxi kelishilgan holda " },
+    { id: 6, src: loft6, title: "Loft", price: "Narxi kelishilgan holda " },
+    { id: 7, src: loft7, title: "Loft", price: "Narxi kelishilgan holda " },
+    { id: 8, src: loft8, title: "Loft", price: "Narxi kelishilgan holda " },
+    { id: 9, src: loft9, title: "Loft", price: "Narxi kelishilgan holda " },
+    { id: 10, src: loft10, title: "Loft", price: "Narxi kelishilgan holda " },
   ];
 
   return (
@@ -57,7 +57,7 @@ const Loft = () => {
                   rel="noopener noreferrer"
                   className="text-white"
                 >
-                  Sotvolish
+                  Sotib olish
                 </a>
               </Button>
             </div>

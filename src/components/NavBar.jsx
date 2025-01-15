@@ -20,32 +20,33 @@ const NavBar = () => {
       <NavbarCollapse className="w-full">
         <div className="flex flex-col md:flex-row md:space-x-8 items-center justify-center w-full">
           <NavbarLink
-            href="#glatki"
-            id="nav-glatki"
+            href="#bosh-sahifa"
+            id="bosh-sahifa"
             className="text-lg hover:text-teal-600 transition duration-300 text-center"
           >
-            Home
+            Bosh Sahifa
           </NavbarLink>
           <NavbarLink
-            href="#kafel"
-            id="nav-kafel"
+            href="#haqimizda"
+            id="nav-haqimizda"
             className="text-lg hover:text-teal-600 transition duration-300 text-center"
           >
-            About
+            Biz haqimizda
           </NavbarLink>
           <NavbarLink
-            href="#kerpich"
-            id="nav-kerpich"
+            href="#product"
+            id="nav-product"
             className="text-lg hover:text-teal-600 transition duration-300 text-center"
           >
-            Product
+            Maxsulotla
           </NavbarLink>
         </div>
       </NavbarCollapse>
 
       <NavbarCollapse className="w-full">
         <a
-          href="tel:+998888388338"
+          href="tel:+998901091900
+"
           id="phone-link"
           className="mt-3 md:mt-0 bg-teal-500 text-white py-2 px-6 rounded-lg text-lg hover:bg-teal-600 transition duration-300 text-center ml-auto"
         >

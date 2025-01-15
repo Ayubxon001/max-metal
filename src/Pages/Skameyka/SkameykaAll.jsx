@@ -16,19 +16,19 @@ import Skameyka18 from "../../images/Skameyka/Skameyka18.jpeg";
 import { Button } from "flowbite-react";
 const SkameykaAll = () => {
   const images = [
-    { src: Skameyka6, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka7, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka8, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka9, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka10, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka11, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka12, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka13, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka14, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka15, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka16, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka17, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka18, title: "Skameyka", price: "100,000 som" },
+    { src: Skameyka6, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka7, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka8, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka9, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka10, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka11, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka12, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka13, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka14, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka15, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka16, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka17, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka18, title: "Skameyka", price: "Narxi kelishilgan holda" },
   ];
   return (
     <div className="py-12 px-10">
@@ -62,12 +62,12 @@ const SkameykaAll = () => {
             <div className="p-4 text-center">
               <Button gradientDuoTone="purpleToBlue">
                 <a
-                  href="https://t.me/Isa_Yuu"
+                  href="https://t.me/tower2112"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white"
                 >
-                  Sotvolish
+                  Sotib olish
                 </a>
               </Button>
             </div>

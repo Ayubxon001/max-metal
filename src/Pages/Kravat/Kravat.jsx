@@ -12,15 +12,15 @@ import { Button } from "flowbite-react";
 import { Link } from "react-router-dom";
 const Kravat = () => {
   const images = [
-    { src: kravat1, title: "Kravat", price: "100,000 som" },
-    { src: kravat2, title: "Kravat", price: "100,000 som" },
-    { src: kravat3, title: "Kravat", price: "100,000 som" },
-    { src: kravat4, title: "Kravat", price: "100,000 som" },
-    { src: kravat5, title: "Kravat", price: "100,000 som" },
-    { src: kravat6, title: "Kravat", price: "100,000 som" },
-    { src: kravat7, title: "Kravat", price: "100,000 som" },
-    { src: kravat8, title: "Kravat", price: "100,000 som" },
-    { src: kravat9, title: "Kravat", price: "100,000 som" },
+    { src: kravat1, title: "Kravat", price: "Narxi kelishilgan holda " },
+    { src: kravat2, title: "Kravat", price: "Narxi kelishilgan holda " },
+    { src: kravat3, title: "Kravat", price: "Narxi kelishilgan holda " },
+    { src: kravat4, title: "Kravat", price: "Narxi kelishilgan holda " },
+    { src: kravat5, title: "Kravat", price: "Narxi kelishilgan holda " },
+    { src: kravat6, title: "Kravat", price: "Narxi kelishilgan holda " },
+    { src: kravat7, title: "Kravat", price: "Narxi kelishilgan holda " },
+    { src: kravat8, title: "Kravat", price: "Narxi kelishilgan holda " },
+    { src: kravat9, title: "Kravat", price: "Narxi kelishilgan holda " },
   ];
   return (
     <div className="py-12 px-10">
@@ -49,12 +49,12 @@ const Kravat = () => {
             <div className="p-4 text-center">
               <Button gradientDuoTone="purpleToBlue">
                 <a
-                  href="https://t.me/Isa_Yuu"
+                  href="https://t.me/tower2112"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white"
                 >
-                  Sotvolish
+                  Sotib olish
                 </a>
               </Button>
             </div>

@@ -23,7 +23,7 @@ const Category = () => {
   ];
 
   return (
-    <div className="py-12 px-10">
+    <div className="py-12 px-10" id="product">
       <div className="items-center mb-8">
         <h1 className="text-4xl text-gray-800 font-bold">Category</h1>
       </div>

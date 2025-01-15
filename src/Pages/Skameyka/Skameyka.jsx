@@ -7,10 +7,10 @@ import Skameyka4 from "../../images/Skameyka/Skameyka4.jpeg";
 import { Button } from "flowbite-react";
 const Skameyka = () => {
   const images = [
-    { src: Skameyka1, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka2, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka3, title: "Skameyka", price: "100,000 som" },
-    { src: Skameyka4, title: "Skameyka", price: "100,000 som" },
+    { src: Skameyka1, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka2, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka3, title: "Skameyka", price: "Narxi kelishilgan holda" },
+    { src: Skameyka4, title: "Skameyka", price: "Narxi kelishilgan holda" },
   ];
   return (
     <div className="py-12 px-10">
@@ -45,12 +45,12 @@ const Skameyka = () => {
             <div className="p-4 text-center">
               <Button gradientDuoTone="purpleToBlue">
                 <a
-                  href="https://t.me/Isa_Yuu"
+                  href="https://t.me/tower2112"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white"
                 >
-                  Sotvolish
+                  Sotib olish
                 </a>
               </Button>
             </div>

@@ -17,9 +17,17 @@ const Footer = () => {
               <div>
                 <h4 className="text-lg font-bold">MaxMetal</h4>
                 <p className="text-gray-400 text-sm">
-                  Sanoat ehtiyojlaringiz uchun yuqori sifatli metall
-                  mahsulotlar.
+                  Toshkent shahar, Olmazor tumanl, Miskly MFI, Yangi Olmazor
+                  ko'chasi, 57-uy.
                 </p>
+                <a
+                  href="https://www.google.com/maps?q=Tashkent,+Yangi+Olmazor+ko'chasi,+57"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-teal-500 hover:text-teal-300 transition duration-300 text-sm"
+                >
+                  Manzilni xaritada ochish
+                </a>
               </div>
             </div>
           </div>
@@ -61,10 +69,10 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="tel:+998888388338"
+                  href="tel:+998901091900"
                   className="text-gray-400 hover:text-white"
                 >
-                  +998(88)838-83-38
+                  +998(90)109-19-00
                 </a>
               </li>
             </ul>
